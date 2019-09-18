@@ -17,7 +17,6 @@ function App1(){
     // const doubled = nums.map(function(num){
     //     return num * 2
     // })
-
     const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />)
 
     return (
